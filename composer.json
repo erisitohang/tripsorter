@@ -1,0 +1,23 @@
+{
+    "name": "erisitohang/tripsorter",
+    "description": "Backend test",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "authors": [
+        {
+            "name": "Eri Sitohang",
+            "email": "eri.sitohang@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EriSitohang\\": "src/"
+        }
+    }
+}
